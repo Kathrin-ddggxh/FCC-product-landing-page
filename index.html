@@ -4,18 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🏕 Awesome Tents</title>
+    <title>Awesome Tents</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f026990e6c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
     <header id="header">
-      <img src="#" alt="" id="header-img" />
-      <nav id="nav-bar">
-        <p class="logo">🏕 Awesome Tents</p>
-        <a href="#" class="nav-link">Features</a>
-        <a href="#" class="nav-link">How It Works</a>
-        <a href="#" class="nav-link">Pricing</a>
-      </nav>
+      <div class="container">
+        <div class="header__nav row">
+          <div class="logo row">
+            <!--
+          <img
+            src="images/tent-icon.png"
+            alt="tent icon"
+            id="header-img"
+            class="logo__img"
+          />
+          -->
+            <i class="fas fa-campground logo__icon"></i>
+            <p class="logo__text">Awesome Tents</p>
+          </div>
+          <nav id="nav-bar" class="nav-bar row">
+            <a href="#" class="nav-link">Features</a>
+            <a href="#" class="nav-link">How It Works</a>
+            <a href="#" class="nav-link">Pricing</a>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
       <video src="#" id="video"></video>
