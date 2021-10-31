@@ -118,7 +118,8 @@ footer {
   margin-bottom: 2em;
 }
 
-.btn-submit {
+.btn-submit,
+.card__btn {
   background-color: var(--secondary-color);
   color: var(--base-color-light);
   border-style: none;
@@ -127,7 +128,7 @@ footer {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 0.3em 1em;
-  border-radius: 80px;
+  border-radius: 4px;
 }
 
 .btn-submit:hover {
@@ -163,4 +164,30 @@ need something here to make the icons and text line up vertically
 .footer__copy {
   text-align: right;
   font-size: 0.8rem;
+}
+
+.card {
+  background-color: var(--base-color-dark);
+  padding: 1.5rem;
+}
+
+.card__title {
+  font-family: "Oswald", sans-serif;
+
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+.card__price {
+  font-weight: 900;
+  font-size: 2.2rem;
+
+  letter-spacing: 0.1em;
+}
+
+.card__list {
+}
+
+.card__list--item {
+  margin-bottom: 0.5em;
 }
