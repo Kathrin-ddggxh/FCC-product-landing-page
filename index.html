@@ -20,10 +20,9 @@
 
   <body>
     <header id="header">
-      <div class="container">
-        <div class="header__nav row">
-          <div class="logo row">
-            <!--
+      <div class="header__nav row">
+        <div class="logo row">
+          <!--
           <img
             src="images/tent-icon.png"
             alt="tent icon"
@@ -31,34 +30,103 @@
             class="logo__img"
           />
           -->
-            <i class="fas fa-campground logo__icon"></i>
-            <p class="logo__text">Awesome Tents</p>
-          </div>
-          <nav id="nav-bar" class="nav-bar row">
-            <a href="#" class="nav-link">Features</a>
-            <a href="#" class="nav-link">How It Works</a>
-            <a href="#" class="nav-link">Pricing</a>
-          </nav>
+          <i class="fas fa-campground logo__icon"></i>
+          <p class="logo__text">Awesome Tents</p>
         </div>
+        <nav id="nav-bar" class="nav-bar row">
+          <a href="#" class="nav-link">Features</a>
+          <a href="#" class="nav-link">How It Works</a>
+          <a href="#" class="nav-link">Pricing</a>
+        </nav>
       </div>
     </header>
     <main>
-      <video src="#" id="video"></video>
-      <form action="" id="form">
-        <input
-          type="email"
-          name=""
-          id="email"
-          placeholder="Enter your email address"
-        />
-        <input type="submit" value="Submit" id="submit" />
-      </form>
+      <div class="container">
+        <div class="column">
+          <h1>Tents that spark joy!</h1>
+          <section class="form">
+            <form action="" id="form" class="column">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                class="input__field"
+              />
+
+              <input
+                type="submit"
+                value="Go camping!"
+                id="submit"
+                class="btn-submit"
+              />
+            </form>
+          </section>
+          <section class="content">
+            <div class="content__sub row">
+              <div class="col">
+                <i class="far fa-snowflake content__sub--icon"></i>
+              </div>
+              <div class="col">
+                <h2 class="content__sub--title">Highly insulating</h2>
+                <p class="content__sub--text">
+                  Latest nano-technology brings you this intellegent fibre that
+                  adjusts its insulating factor to the outside temperatur. Never
+                  get too hot or too cold again in you tent. No matter where you
+                  are.
+                </p>
+              </div>
+            </div>
+            <div class="content__sub row">
+              <div class="col">
+                <i class="far fa-clock content__sub--icon"></i>
+              </div>
+              <div class="col">
+                <h2 class="content__sub--title">5-year warranty</h2>
+                <p class="content__sub--text">
+                  Whether you accidentally pitch your tent in a swamp, get it
+                  ripped to shreds by a bear or burn it down because you were
+                  secretely smoking in it - as long as it's within 5 years of
+                  purchase, we've got you covered!
+                </p>
+              </div>
+            </div>
+            <div class="content__sub row">
+              <div class="col">
+                <i class="fas fa-truck content__sub--icon"></i>
+              </div>
+              <div class="col">
+                <h2 class="content__sub--title">Fast delivery</h2>
+                <p class="content__sub--text">
+                  You had a big fight with your partner, your little sibling is
+                  wrecking your head or your parents just don't get you. You
+                  simply need to get away. Order now and you'll have your little
+                  bubble of freedom within the next 24 hours.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/42hTBcNh1f8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </section>
+        </div>
+      </div>
     </main>
     <footer>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Contact</a>
-      <p>Copyright 2021, Awesome Tents</p>
+      <div class="footer__nav row">
+        <a href="#" class="footer__link">Privacy</a>
+        <a href="#" class="footer__link">Terms</a>
+        <a href="#" class="footer__link">Contact</a>
+      </div>
+      <p class="footer__copy">Copyright 2021, Awesome Tents</p>
     </footer>
   </body>
 </html>
