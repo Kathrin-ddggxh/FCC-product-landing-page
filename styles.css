@@ -223,7 +223,21 @@ footer {
 
   .cards .row {
     flex-direction: column;
-    width: 100%;
+  }
+
+  .card {
+    width: 70vw;
+    margin-bottom: 40px;
+  }
+
+  .col + .col {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .row {
+    flex-direction: column;
   }
 }
 /*
