@@ -90,10 +90,21 @@ footer {
   align-items: center;
   margin-bottom: 0.8em;
 }
+
+/*
 .logo__icon {
   font-size: 3rem;
   color: var(--secondary-color);
   margin-right: 0.5em;
+}
+*/
+
+.logo__icon {
+  width: 5rem;
+  margin-right: 0.8em;
+  background-color: #105652;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 .logo__text {
