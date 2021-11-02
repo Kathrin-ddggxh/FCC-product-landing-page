@@ -20,20 +20,12 @@
 
   <body>
     <header id="header">
-      <div class="header__nav row">
-        <div class="logo row">
-          <!--
-          <img
-            src="images/tent-icon.png"
-            alt="tent icon"
-            id="header-img"
-            class="logo__img"
-          />
-          -->
+      <div class="header__nav">
+        <div class="logo">
           <i class="fas fa-campground logo__icon"></i>
           <p class="logo__text">Awesome Tents</p>
         </div>
-        <nav id="nav-bar" class="nav-bar row">
+        <nav id="nav-bar" class="nav-bar">
           <a href="#" class="nav-link">Features</a>
           <a href="#" class="nav-link">How It Works</a>
           <a href="#" class="nav-link">Pricing</a>
@@ -42,122 +34,121 @@
     </header>
     <main>
       <div class="container">
-        <div class="column">
-          <h1>Tents that spark joy!</h1>
-          <section class="form">
-            <form action="" id="form" class="column">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter your email address"
-                class="input__field"
-              />
+        <h1>Tents that spark joy!</h1>
+        <section class="form">
+          <form
+            action=" https://www.freecodecamp.com/email-submit"
+            id="form"
+            class="column"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+              class="input__field"
+              required
+            />
 
-              <input
-                type="submit"
-                value="Go camping!"
-                id="submit"
-                class="btn-submit"
-              />
-            </form>
-          </section>
-          <section class="content">
-            <div class="content__sub row">
-              <div class="col">
-                <i class="far fa-snowflake content__sub--icon"></i>
-              </div>
-              <div class="col content__sub--text">
-                <h2 class="content__sub--title">Highly insulating</h2>
-                <p class="content__sub--par">
-                  Latest nano-technology brings you this intellegent fibre that
-                  adjusts its insulating factor to the outside temperature.
-                  Never get too hot or too cold again in your tent. No matter
-                  where you are.
-                </p>
-              </div>
+            <input
+              type="submit"
+              value="Go camping!"
+              id="submit"
+              class="btn-submit"
+            />
+          </form>
+        </section>
+        <section class="content">
+          <div class="content__sub">
+            <div class="col">
+              <i class="far fa-snowflake content__sub--icon"></i>
             </div>
-            <div class="content__sub row">
-              <div class="col">
-                <i class="far fa-clock content__sub--icon"></i>
-              </div>
-              <div class="col content__sub--text">
-                <h2 class="content__sub--title">5-year warranty</h2>
-                <p class="content__sub--par">
-                  Whether you accidentally pitch your tent in a swamp, get it
-                  ripped to shreds by a bear or burn it down because you were
-                  secretely smoking in it - as long as it's within 5 years of
-                  purchase, we've got you covered!
-                </p>
-              </div>
+            <div class="col content__sub--text">
+              <h2 class="content__sub--title">Highly insulating</h2>
+              <p class="content__sub--par">
+                Latest nano-technology brings you this intellegent fibre that
+                adjusts its insulating factor to the outside temperature. Never
+                get too hot or too cold again in your tent. No matter where you
+                are.
+              </p>
             </div>
-            <div class="content__sub row">
-              <div class="col">
-                <i class="fas fa-truck content__sub--icon"></i>
-              </div>
-              <div class="col content__sub--text">
-                <h2 class="content__sub--title">Fast delivery</h2>
-                <p class="content__sub--par">
-                  You had a big fight with your partner, your little sibling is
-                  wrecking your head or your parents just don't get you. You
-                  simply need to get away. Order now and you'll have your little
-                  bubble of freedom within the next 24 hours.
-                </p>
-              </div>
+          </div>
+          <div class="content__sub">
+            <div class="col">
+              <i class="far fa-clock content__sub--icon"></i>
             </div>
-          </section>
-          <section class="video">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/42hTBcNh1f8"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </section>
-          <section class="cards">
-            <div class="row">
-              <div class="card col">
-                <h3 class="card__title">2 person tent</h3>
-                <span class="card__price"> €90 </span>
-                <ul class="card__list">
-                  <li class="card__list--item">Extremely light-weight</li>
-                  <li class="card__list--item">Sleeps 2 people comfortably</li>
-                  <li class="card__list--item">Internal storage pouches</li>
-                </ul>
-                <button class="card__btn">Select</button>
-              </div>
-              <div class="card col">
-                <h3 class="card__title">4 person tent</h3>
-                <span class="card__price"> €160 </span>
-                <ul class="card__list">
-                  <li class="card__list--item">Sleeps 4 people comfortably</li>
-                  <li class="card__list--item">Internal storage pouches</li>
-                  <li class="card__list--item">Extensive covered porch area</li>
-                </ul>
-                <button class="card__btn">Select</button>
-              </div>
-              <div class="card col">
-                <h3 class="card__title">Family tent</h3>
-                <span class="card__price"> €310 </span>
-                <ul class="card__list">
-                  <li class="card__list--item">Sleeps up to 6 people</li>
-                  <li class="card__list--item">2 seperate sleeping chambers</li>
-                  <li class="card__list--item">
-                    Large middle section for storage
-                  </li>
-                </ul>
-                <button class="card__btn">Select</button>
-              </div>
+            <div class="col content__sub--text">
+              <h2 class="content__sub--title">5-year warranty</h2>
+              <p class="content__sub--par">
+                Whether you accidentally pitch your tent in a swamp, get it
+                ripped to shreds by a bear or burn it down because you were
+                secretely smoking in it - as long as it's within 5 years of
+                purchase, we've got you covered!
+              </p>
             </div>
-          </section>
-        </div>
+          </div>
+          <div class="content__sub">
+            <div class="col">
+              <i class="fas fa-truck content__sub--icon"></i>
+            </div>
+            <div class="col content__sub--text">
+              <h2 class="content__sub--title">Fast delivery</h2>
+              <p class="content__sub--par">
+                You had a big fight with your partner, your little sibling is
+                wrecking your head or your parents just don't get you. You
+                simply need to get away. Order now and you'll have your little
+                bubble of freedom within the next 24 hours.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/42hTBcNh1f8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="cards">
+          <div class="card">
+            <h3 class="card__title">2 person tent</h3>
+            <span class="card__price"> €90 </span>
+            <ul class="card__list">
+              <li class="card__list--item">Extremely light-weight</li>
+              <li class="card__list--item">Sleeps 2 people comfortably</li>
+              <li class="card__list--item">Internal storage pouches</li>
+            </ul>
+            <button class="card__btn">Select</button>
+          </div>
+          <div class="card">
+            <h3 class="card__title">4 person tent</h3>
+            <span class="card__price"> €160 </span>
+            <ul class="card__list">
+              <li class="card__list--item">Sleeps 4 people comfortably</li>
+              <li class="card__list--item">Internal storage pouches</li>
+              <li class="card__list--item">Extensive covered porch area</li>
+            </ul>
+            <button class="card__btn">Select</button>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Family tent</h3>
+            <span class="card__price"> €310 </span>
+            <ul class="card__list">
+              <li class="card__list--item">Sleeps up to 6 people</li>
+              <li class="card__list--item">2 seperate sleeping chambers</li>
+              <li class="card__list--item">Large middle section for storage</li>
+            </ul>
+            <button class="card__btn">Select</button>
+          </div>
+        </section>
       </div>
     </main>
     <footer>
-      <div class="footer__nav row">
+      <div class="footer__nav">
         <a href="#" class="footer__link">Privacy</a>
         <a href="#" class="footer__link">Terms</a>
         <a href="#" class="footer__link">Contact</a>
@@ -166,12 +157,3 @@
     </footer>
   </body>
 </html>
-
-<!-- Unfullfilled user stories:
-#6
-#10
-#12
-#13
-#14
-#15
--->
